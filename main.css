@@ -4,17 +4,21 @@
     box-sizing: border-box;
 }
 
-body{
+body, html{
+    background-color: #fff;
+}
+.container {
     display: flex;
     justify-content: center;
+    width: 100vw;
+    height: 30vh;
     background-color: #fff;
-    text-align: center;
 }
-
 button {
     font-size: 35px;
     padding: 10px 20px;
     margin: 50px;
+    height: 70px;
     background-color: inherit;
     border-color: black;
     border-style: dotted;
@@ -26,6 +30,8 @@ div {
     background-color: black;
     color: white;
     margin: 5px;
+    float: left;
+    text-align: center;
 }
 
 .circle {
