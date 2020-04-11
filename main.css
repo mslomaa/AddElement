@@ -14,14 +14,24 @@ body, html{
     height: 30vh;
     background-color: #fff;
 }
-button {
-    font-size: 35px;
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 30vh;
+    background-color: #fff;
+}
+
+.btn, .btn1 {
+    font-size: 1.5rem;
     padding: 10px 20px;
     margin: 50px;
     height: 70px;
     background-color: inherit;
     border-color: black;
     border-style: dotted;
+    text-transform: uppercase;
 }
 
 div {
@@ -39,4 +49,14 @@ div {
     border-radius: 50%;
     border: 2px solid black;
     color: black;
+}
+
+.big {
+    font-size: 3rem;
+    font-weight: bold;
+}
+ul {
+    color: black;
+    margin-top: 30px;
+    
 }
